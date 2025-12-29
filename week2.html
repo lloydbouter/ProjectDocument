@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 2 – Examenportfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* WEEK 2 – EDITORIAL GRID (3 PORTRAIT / 1 LANDSCAPE) */
+
+    .week2-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 24px;
+      margin-top: 50px;
+    }
+
+    .week2-grid img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+      background: #ddd;
+    }
+
+    /* Portrait A4 */
+    .w2-portrait-1 {
+      grid-column: 1 / 3;
+      aspect-ratio: 3 / 4;
+    }
+
+    .w2-portrait-2 {
+      grid-column: 3 / 5;
+      aspect-ratio: 3 / 4;
+    }
+
+    .w2-portrait-3 {
+      grid-column: 5 / 7;
+      aspect-ratio: 3 / 4;
+    }
+
+    /* Landscape A4 */
+    .w2-landscape {
+      grid-column: 2 / 6;
+      aspect-ratio: 4 / 3;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .week2-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .week2-grid img {
+        aspect-ratio: 4 / 3;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="logo">
+  Ontwerpdocumentatie<br>
+  <strong>Lloyd Bouter · 1GDM2</strong>
+</span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Week 2</h1>
+    <p>Low-fidelity wireframes</p>
+  </section>
+
+  <!-- EXPERIMENTEN -->
+  <section class="work">
+    <h2>Ideeën & Schetsen</h2>
+    <p class="subtitle">
+      Deze week stond volledig in het teken van low-fidelity prototypes. De focus lag niet op design, maar op structuur en inhoud. Ik dacht na over welke schermen nodig waren, hoe gebruikers zouden navigeren en welke informatie waar moest staan. Door low-fi te werken kon ik snel aanpassen zonder vast te zitten aan details.
+    </p>
+
+    <div class="week2-grid">
+      <img class="w2-portrait-1" src="img/week2/Scherm­afbeelding 2025-12-13 om 22.03.15.png" alt="Portrait experiment 1">
+      <img class="w2-portrait-2" src="img/week2/Scherm­afbeelding 2025-12-13 om 22.04.20.png" alt="Portrait experiment 2">
+      <img class="w2-portrait-3" src="img/week2/Scherm­afbeelding 2025-12-13 om 22.04.12.png" alt="Portrait experiment 3">
+      <img class="w2-landscape" src="img/week2/Scherm­afbeelding 2025-12-13 om 22.03.57.jpeg" alt="Landscape experiment">
+    </div>
+    <br>
+    <br>
+    <h3>Wat heb ik veranderd?</h3>
+<p class="subtitle">
+  Deze week heb ik low-fidelity wireframes gemaakt voor de Lost in Tra(i)nslation opdracht. Ik schetste verschillende schermen en experimenteerde met zowel portrait als landscape layouts. De focus lag volledig op structuur, inhoud en navigatie, niet op visueel design of detail.
+</p>
+
+<h3>Waarom? (tests, feedback, evaluatie)</h3>
+<p class="subtitle">
+  Low-fi werken liet mij toe om snel aanpassingen te maken en verschillende ideeën uit te proberen. In het begin vond ik het moeilijk om schermen te schetsen zonder tekst of detail, maar na enkele experimenten begon ik beter te begrijpen hoe ik informatie kon voorstellen met eenvoudige vormen.
+</p>
+
+<h3>UX/UI-vragen die mijn beslissingen leidden</h3>
+<p class="subtitle">Ik stelde mezelf de volgende vragen:</p>
+<ul class="questions">
+  <li>Welke schermen zijn echt nodig?</li>
+  <li>Welke informatie moet waar staan om logisch aan te voelen?</li>
+  <li>Hoe beweegt een gebruiker door de app?</li>
+</ul>
+
+<h3>Trade-offs</h3>
+<p class="subtitle">
+  Ik liet tekst, iconen en visuele stijl bewust weg om mij niet te laten afleiden door designkeuzes. Hierdoor waren de wireframes soms abstract, maar wel flexibel om aan te passen.
+</p>
+
+<h3>Resultaten van snelle usability checks</h3>
+<p class="subtitle">
+  Door mijn wireframes te tonen aan iemand anders kon die meestal volgen wat de bedoeling was van elk scherm. Dit gaf mij vertrouwen dat de basisstructuur duidelijk genoeg was om verder uit te werken richting midi- en hi-fi prototypes.
+</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 – Examenportfolio
+  </footer>
+
+</body>
+</html>
