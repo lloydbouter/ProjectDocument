@@ -474,3 +474,72 @@ footer a:hover {
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
+/* DOWNLOAD SECTION – PERFECT UITGELIJND MET DE REST VAN DE CONTENT */
+.download {
+  background: #faf7f3;       /* lichte achtergrond */
+  padding: 60px 0;           /* alleen verticale padding */
+}
+
+.download-inner {
+  max-width: 900px;      /* breedte van je content */
+  width: 100%;
+  margin: 0 20px;        /* 20px marge aan links en rechts */
+  text-align: left;
+  border-radius: 16px;
+  background: #faf7f3;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 40px;          /* binnenruimte voor tekst en knop */
+}
+
+.download-inner h2 {
+  font-size: 36px;
+  color: #5b1f2b; /* bordeaux */
+  margin-bottom: 20px;
+}
+
+.download-inner p {
+  font-size: 18px;
+  color: #111;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.download-inner a {
+  display: inline-block;
+  background-color: #5b1f2b; /* bordeaux */
+  color: #faf7f3;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 16px 32px;
+  border-radius: 999px; /* pill shape */
+  font-size: 18px;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-inner a:hover {
+  background-color: #7a2a3b; /* iets lichter bordeaux */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .download-inner {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .download-inner h2 {
+    font-size: 28px;
+  }
+
+  .download-inner p {
+    font-size: 16px;
+  }
+
+  .download-inner a {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
