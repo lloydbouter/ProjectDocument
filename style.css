@@ -453,3 +453,24 @@ footer {
     font-size: 20px;
   }
 }
+footer a {
+  color: #faf7f3;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+/* SINGLE WEEK IMAGE */
+/* SINGLE WEEK IMAGE – LINKS UITGELIJND */
+.week-image {
+  margin: 40px 0;
+}
+
+.week-image img {
+  width: 100%;
+  max-width: 700px;   /* pas aan naar smaak */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
