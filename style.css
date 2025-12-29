@@ -414,3 +414,42 @@ footer {
   border-radius: 16px;
   background: #ddd;
 }
+/* MOBIEL – ALGEMEEN */
+@media (max-width: 600px) {
+
+  /* Algemene padding */
+  .hero,
+  .hero-image,
+  .work,
+  .about,
+  footer {
+    padding: 60px 24px;
+  }
+
+  /* Navigatie */
+  .nav {
+    padding: 20px 24px;
+  }
+
+  .nav ul {
+    gap: 16px;
+  }
+
+  /* Hero tekst */
+  .hero h1,
+  .hero-image h1 {
+    font-size: clamp(42px, 12vw, 64px);
+  }
+
+  .hero p,
+  .hero-image p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  /* Week links */
+  .week-grid a {
+    padding: 32px;
+    font-size: 20px;
+  }
+}
