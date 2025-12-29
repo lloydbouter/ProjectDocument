@@ -63,32 +63,19 @@ body {
   margin-top: 4px;
   opacity: 0.8;
 }
-.week-image img {
-  width: 600px;      /* pas dit aan naar wens */
-  max-width: 100%;   /* blijft responsive */
-  height: auto;
-  margin-top: 30px;
-  border-radius: 12px;
-}
 .week-images {
   display: flex;
+  flex-direction: column;   /* onder elkaar */
   gap: 30px;
   margin: 40px 0;
 }
 
 .week-images img {
   width: 100%;
-  max-width: 420px;
+  max-width: 860px;         /* zelfde gevoel als week3-images */
   height: auto;
   border-radius: 12px;
-  box-shadow: var(--shadow-soft);
-}
-.week-images img {
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: var(--shadow-soft);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 /* HERO */
 .hero {
